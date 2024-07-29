@@ -1,7 +1,7 @@
 {
   "name": "minisim-scicicd",
-  "homepage": "https://pmocz.github.io/minisim-scicicd",
   "version": "0.1.0",
+  "homepage": "https://pmocz.github.io/minisim-scicicd/",
   "description": "A scicicd GitHub Page for the minisim project",
   "license": "MIT",
   "scripts": {
