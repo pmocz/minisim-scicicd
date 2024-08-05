@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/minisim-scicicd/static/css/main.f855e6bc.css",
+    "main.js": "/minisim-scicicd/static/js/main.f3907833.js",
+    "static/js/453.40f3d3c4.chunk.js": "/minisim-scicicd/static/js/453.40f3d3c4.chunk.js",
+    "static/media/logo.svg": "/minisim-scicicd/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/minisim-scicicd/index.html",
+    "main.f855e6bc.css.map": "/minisim-scicicd/static/css/main.f855e6bc.css.map",
+    "main.f3907833.js.map": "/minisim-scicicd/static/js/main.f3907833.js.map",
+    "453.40f3d3c4.chunk.js.map": "/minisim-scicicd/static/js/453.40f3d3c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f3907833.js"
+  ]
+}
