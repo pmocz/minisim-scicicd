@@ -1,0 +1,116 @@
+import json
+
+tp0_data = {
+  "id": 0,
+  "name": "Orszag-Tang",
+  "description": "A simple test problem",
+  "owner": "Philip Mocz",
+  "baseline": {
+    "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
+    "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.1],
+    "momentum": [1.0, 1.01, 1.01, 1.02, 1.01, 1.0],
+  },
+  "submissions": [
+    {
+      "id": 0,
+      "date": "2012-04-23T18:25:43.511Z",
+      "timing": 1.03,
+      "computer": {
+        "name": "C916PXT6XW",
+        "platform": "macOS",
+        "processor": "Apple M3 Max",
+        "ram": 64,
+        "processors": 12,
+      },
+      "code": {
+        "name": "minisim",
+        "url": "https://github.com/pmocz/minisim",
+        "version": "0.1.0",
+        "branch": "main",
+        "sha": "e3aafae",
+      },
+      "solution": {
+        "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
+        "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.1],
+        "momentum": [1.0, 1.01, 1.01, 1.02, 1.01, 1.0],
+      },
+    },
+    {
+      "id": 1,
+      "date": "2012-04-24T18:20:40.511Z",
+      "timing": 1.02,
+      "computer": {
+        "name": "C916PXT6XW",
+        "platform": "macOS",
+        "processor": "Apple M3 Max",
+        "ram": 64,
+        "processors": 12,
+      },
+      "code": {
+        "name": "minisim",
+        "url": "https://github.com/pmocz/minisim",
+        "version": "0.1.0",
+        "branch": "main",
+        "sha": "e3aafae",
+      },
+      "solution": {
+        "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
+        "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.1],
+        "momentum": [1.0, 1.01, 1.01, 1.02, 1.01, 1.0],
+      },
+    },
+    {
+      "id": 2,
+      "date": "2012-04-26T18:20:40.511Z",
+      "timing": 0.55,
+      "computer": {
+        "name": "C916PXT6XW",
+        "platform": "macOS",
+        "processor": "Apple M3 Max",
+        "ram": 64,
+        "processors": 24,
+      },
+      "code": {
+        "name": "minisim",
+        "url": "https://github.com/pmocz/minisim",
+        "version": "0.1.0",
+        "branch": "main",
+        "sha": "e3aafae",
+      },
+      "solution": {
+        "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
+        "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.1],
+        "momentum": [1.0, 1.01, 1.01, 1.02, 1.01, 1.0],
+      },
+    },
+    {
+      "id": 3,
+      "date": "2012-04-25T18:20:40.511Z",
+      "timing": 1.3,
+      "computer": {
+        "name": "C916PXT6XW",
+        "platform": "macOS",
+        "processor": "Apple M3 Max",
+        "ram": 64,
+        "processors": 12,
+      },
+      "code": {
+        "name": "minisim",
+        "url": "https://github.com/pmocz/minisim",
+        "version": "0.1.0",
+        "branch": "main",
+        "sha": "g5haqww",
+      },
+      "solution": {
+        "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
+        "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.2],
+        "momentum": [1.0, 1.01, 1.01, 1.02, 1.01, 1.0],
+      },
+    },
+  ],
+}
+
+tp0_json_object = json.dumps(tp0_data, indent=2)
+
+with open("tp000.json", "w") as outfile:
+  outfile.write(tp0_json_object)
