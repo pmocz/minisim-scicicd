@@ -29,6 +29,11 @@ tp0_data = {
         "branch": "main",
         "sha": "e3aafae",
       },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1,
+      },
       "solution": {
         "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
         "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.1],
@@ -52,6 +57,11 @@ tp0_data = {
         "version": "0.1.0",
         "branch": "main",
         "sha": "e3aafae",
+      },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1,
       },
       "solution": {
         "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
@@ -77,6 +87,11 @@ tp0_data = {
         "branch": "main",
         "sha": "e3aafae",
       },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1,
+      },
       "solution": {
         "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
         "energy": [1.0, 0.99, 1.01, 1.0, 1.05, 1.1],
@@ -100,6 +115,11 @@ tp0_data = {
         "version": "0.1.0",
         "branch": "main",
         "sha": "g5haqww",
+      },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1,
       },
       "solution": {
         "time": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],

@@ -48,6 +48,11 @@
         "branch": "main",
         "sha": "e3aafae"
       },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1
+      },
       "solution": {
         "time": [
           0.0,
@@ -92,6 +97,11 @@
         "version": "0.1.0",
         "branch": "main",
         "sha": "e3aafae"
+      },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1
       },
       "solution": {
         "time": [
@@ -138,6 +148,11 @@
         "branch": "main",
         "sha": "e3aafae"
       },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1
+      },
       "solution": {
         "time": [
           0.0,
@@ -182,6 +197,11 @@
         "version": "0.1.0",
         "branch": "main",
         "sha": "g5haqww"
+      },
+      "specifications": {
+        "Nx": 128,
+        "Ny": 128,
+        "Nz": 1
       },
       "solution": {
         "time": [
